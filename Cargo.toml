@@ -1,0 +1,9 @@
+[package]
+name = "rust-learning"
+version = "0.1.0"
+authors = ["José Quintana <https://git.io/joseluisq>"]
+
+[dependencies]
+
+[profile.release]
+lto = true
